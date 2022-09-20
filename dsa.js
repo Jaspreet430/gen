@@ -64,12 +64,12 @@
 
 // iterators - meaning travelling through array and invoking single array at one time
 
-let array = [1,2,3,4,5];
+// let array = [1,2,3,4,5];
 
-let arr = array[Symbol.iterator]();
-console.log(arr.next());
-// console.log(firstValue);
-console.log(arr.next());
-console.log(arr.next());
+// let arr = array[Symbol.iterator]();
+// console.log(arr.next());
+// // console.log(firstValue);
+// console.log(arr.next());
+// console.log(arr.next());
 
 //generators - stoping other console.log to execute untill signal is provided
